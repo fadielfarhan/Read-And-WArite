@@ -1,0 +1,129 @@
+*{
+    font-family: "concaveB", sans-serif;
+    overflow: auto;
+    
+}
+.bgcontainer{
+        width: 110%;
+        height: 110%;
+        background-color: black;
+        z-index: 150;
+        position: fixed;
+        opacity: 0.5;
+        margin:-10px;
+    
+}
+
+
+@media screen and (min-width:500px){ 
+
+    html, body {
+        background-image: url("../image/background.jpg");
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: inline-block;
+        background-color: #fff;
+        color: #636b6f;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
+        margin: 0;
+    }
+
+    .full-height {
+        height: 20vh;
+    }
+
+    .flex-center {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .position-ref {
+        position: relative;
+    }
+
+    .top-right {
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+
+    .title {
+        font-size: 84px;
+    }
+
+    .links > a {
+        color: #636b6f;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .m-b-md {
+        margin-bottom: 30px;
+    }
+   
+
+    .container{
+        text-align: center;
+    }
+
+    .titleWelcome{
+        color: #0c83fc;
+        font-size: 40px;
+        margin-bottom: 55px;
+    }
+
+    
+    .category{
+        width: 15%;
+        border-radius: 5px;
+        margin: 100px 50px 0px 50px;
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+    .category img{
+      width: 100%;
+    }
+
+    .category h1{
+        color:#0c83fc;
+        letter-spacing: 2pt;
+        font-size: 15pt;
+        text-decoration: none;
+        
+    }
+
+    .category:hover {
+        opacity: 0.7;
+        text-decoration: none;
+    }
+
+    .category h1:hover {
+        text-decoration: none;
+    }
+
+    .category a{
+        text-decoration: none;
+    }
+
+
+}
+    
+
+
+
+
+@media screen and (max-width:500px){ /*tampilan kalau website di kecilin*/
+   
+  
+  
+
+}
